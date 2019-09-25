@@ -31,6 +31,7 @@ script:
   - cmake -DCOVERAGE=ON -DCMAKE_BUILD_TYPE=Debug ../
   - make
   - make code_coverage
+  - app/shell-app
   - test/cpp-test
 
 after_success:
