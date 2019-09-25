@@ -4,6 +4,8 @@ add_executable(
     cpp-test
     main.cpp
     test.cpp
+    ../app/word_counter.cpp
+    ../include/word_counter.hpp
 )
 
 target_include_directories(cpp-test PUBLIC ../vendor/googletest/googletest/include 
